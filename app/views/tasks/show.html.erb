@@ -9,7 +9,7 @@
   <% end %>
 </p>
 
-<%= link_to "Edit your task", task_edit_path %>
+<%= link_to "Edit your task", edit_task_path %>
 <%= link_to "Delete #{@task.title}",
             task_path(@task),
             method: :delete,
